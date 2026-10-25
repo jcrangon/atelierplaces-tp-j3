@@ -1,0 +1,15 @@
+{
+  "name": "atelierplaces-j3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Base indépendante pour le TP final de qualité logicielle",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "lint": "eslint .",
+    "format:check": "prettier --check \"**/*.{js,json,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}
